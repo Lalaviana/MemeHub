@@ -43,3 +43,6 @@ local MainTab = Window:CreateTab("Main", "house") -- Title, Image
 -- Create Section/Separator
 local Patches1 = PatchNotes:CreateSection("Auto Farm Level Updated")
 local MainSector = MainTab:CreateSection("~> Farm Level")
+
+Patches1:Set("Added Auto Farm Level")
+MainSector:Set("~> Farm Level")
