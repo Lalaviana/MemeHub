@@ -38,8 +38,8 @@ local Window = RField:CreateWindow({
 
 -- Create Tabs
 local PatchNotes = Window:CreateTab("Patch Notes", "scroll-text") -- Title, Image
-local Main = Window:CreateTab("Main", "house") -- Title, Image
+local MainTab = Window:CreateTab("Main", "house") -- Title, Image
 
 -- Create Section/Separator
 local Patches1 = PatchNotes:CreateSection("Auto Farm Level Updated")
-local Patches2 = Main:CreateSection("Auto Farm Level Updated")
+local MainSector = MainTab:CreateSection("~> Farm Level")
